@@ -1,0 +1,123 @@
+/* .head{
+    font-family: 'Catarman',sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    
+}
+
+.itemHead{
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+.imgForCart h1{
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.imgForCart img{
+        height: 7rem;
+        width: 7rem;  
+    }
+
+.myButton {
+        box-shadow:inset 0px 10px 14px -7px #3e7327;
+        background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+        background-color:#77b55a;
+        border-radius:8px;
+        border:1px solid #4b8f29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:16px;
+        font-weight:bold;
+        font-style:italic;
+        padding:9px 12px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #5b8a3c;
+    }
+    .myButton:hover {
+        background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+        background-color:#72b352;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+     */
+
+     body {
+        background-color: #121212; /* Dark background */
+        color: #ffffff; /* Light text for contrast */
+    }
+    
+    .head {
+        font-family: 'Catarman', sans-serif;
+        font-weight: bold;
+        font-size: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+        color: #39ff14; /* Neon green color */
+        text-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14; /* Neon light effect */
+    }
+    
+    .itemHead {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #ff0080; /* Neon pink color */
+        text-shadow: 0 0 10px #ff0080, 0 0 20px #ff0080, 0 0 30px #ff0080; /* Neon light effect */
+    }
+    
+    .imgForCart h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        margin-top: 2rem;
+        color: #1e90ff; /* Neon blue color */
+        text-shadow: 0 0 10px #1e90ff, 0 0 20px #1e90ff, 0 0 30px #1e90ff; /* Neon light effect */
+    }
+    
+    .imgForCart img {
+        height: 7rem;
+        width: 7rem;
+        border: 2px solid #ff0080; /* Neon pink border */
+        border-radius: 8px;
+        box-shadow: 0 0 15px #ff0080, 0 0 30px #ff0080; /* Neon light effect */
+    }
+    
+    .myButton {
+        box-shadow: 0px 0px 20px 0px #38a1db;
+        background: linear-gradient(to bottom, #38a1db 5%, #2c7dbd 100%);
+        background-color: #38a1db;
+        border-radius: 8px;
+        border: 2px solid #1d5f8a;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: italic;
+        padding: 9px 12px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #1d5f8a;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .myButton:hover {
+        background: linear-gradient(to bottom, #2c7dbd 5%, #38a1db 100%);
+        background-color: #2c7dbd;
+        box-shadow: 0px 0px 25px 0px #38a1db; /* Stronger neon glow */
+    }
+    
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
+    

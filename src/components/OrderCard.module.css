@@ -1,0 +1,148 @@
+/* .card {
+    margin: 2rem 2rem 2rem 0;
+    padding: 1.5rem;
+    width: 250px;
+    box-shadow: 0 0 28px 4px rgba(0,0,0,0.1);
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.cardtitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.cardimage {
+    display: flex;
+    justify-content: flex-end;
+}
+.cardimage img {
+    border-radius: 50%;
+}
+
+.location {
+    margin: 1rem 0;
+}
+.location p {
+    margin: 0;
+}
+
+.phoneNumber p {
+    font-style: italic;
+    font-size: .8rem;
+    margin: 0;
+} */
+
+
+
+/* General card container */
+/* General card container */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for the card */
+  .card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    border: 3px solid #ff6200; /* Neon green border */
+    box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.7); /* Neon glow effect */
+  }
+  
+  /* Card title style */
+  .cardtitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Card body style */
+  .cardbody {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Location section style */
+  .location {
+    margin-bottom: 15px;
+  }
+  
+  .location p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Phone number style */
+  .phoneNumber {
+    margin-bottom: 10px;
+  }
+  
+  .phoneNumber p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Estimate amount styling */
+  .cardbody p {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  /* Button style */
+  button {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for button */
+  button:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 10px 3px rgba(0, 255, 0, 0.6); /* Neon button glow */
+  }
+  
+  /* Button color for 'Available' state */
+  button.btn-primary {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    transition: all 0.3s ease;
+  }
+  
+  /* Button color for 'Acquired' state */
+  button.btn-success {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect for 'Available' button */
+  button.btn-primary:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px 3px rgba(0, 123, 255, 0.7); /* Neon blue glow */
+  }
+  
+  /* Hover effect for 'Acquired' button */
+  button.btn-success:hover {
+    background-color: #218838;
+    box-shadow: 0 0 10px 3px rgba(40, 167, 69, 0.7); /* Neon green glow */
+  }
+  
